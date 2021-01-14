@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(228, 185, 132);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 200px;
+    height: 300px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card figure {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .front {
+    background-color: brown;
+    color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+.card .back {
+    background-color: blanchedalmond;
+    color: brown;
+    transform: rotateY(180deg);
+    padding: 10px;
+    text-align: center;
+}
