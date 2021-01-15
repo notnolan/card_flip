@@ -13,7 +13,6 @@ body {
 .card-container {
     width: 200px;
     height: 300px;
-
 }
 
 .card {
@@ -25,7 +24,6 @@ body {
 
 .card-container:hover .card {
     transform: rotateY(180deg);
-
 }
 
 .card figure {
@@ -38,11 +36,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .card .front {
-    background-color: blanchedalmond;
+    background-color: brown;
     color: bisque;
     padding: 10px;
     text-align: center;
